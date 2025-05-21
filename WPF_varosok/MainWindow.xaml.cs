@@ -24,5 +24,10 @@ namespace WPF_varosok
         {
             InitializeComponent();
         }
+
+        private void lb_varosok_SelectionChanged(object sender, SelectionChangedEventArgs e)
+        {
+
+        }
     }
 }
