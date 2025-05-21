@@ -8,14 +8,14 @@ namespace WPF_varosok
 {
     class Varos
     {
-        public int Sorszam { get; set; }
+        public string Sorszam { get; set; }
         public string Varosnev { get; set; }
         public string Jaras { get; set; }
         public string Kisterseg { get; set; }
-        public int Nepesseg { get; set; }
-        public double Terulet { get; set; }
+        public string Nepesseg { get; set; }
+        public string Terulet { get; set; }
 
-        public Varos(int sorszam, string varosnev, string jaras, string kisterseg, int nepesseg, double terulet)
+        public Varos(string sorszam, string varosnev, string jaras, string kisterseg, string nepesseg, string terulet)
         {
             Sorszam = sorszam;
             Varosnev = varosnev;

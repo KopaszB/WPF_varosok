@@ -13,6 +13,7 @@
         <Grid.RowDefinitions>
             <RowDefinition Height="auto"/>
             <RowDefinition Height="auto"/>
+            <RowDefinition Height="auto"/>
         </Grid.RowDefinitions>
         <Grid.ColumnDefinitions>
             <ColumnDefinition Width="40*"/>
@@ -30,8 +31,15 @@
                  Grid.Row="1"
                  Grid.Column="0"
                  Height="700"
-                 Margin="5" SelectionChanged="lb_varosok_SelectionChanged"
-                 />
+                 Margin="5" SelectionChanged="lb_varosok_SelectionChanged"/>
+
+        <Label/>
+        <Border>
+            <StackPanel>
+                
+            </StackPanel>
+        </Border>
+
         <Label Content="Városadatok"
                Grid.Row="1"
                Grid.Column="1"
